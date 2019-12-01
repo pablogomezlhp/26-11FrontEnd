@@ -69,7 +69,7 @@
 
 .bot {
 	display: table;
-	height: 100vh;
+	height: 90vh;
 	background-image: url('../image/media.png');
 	background-size: cover;
 }
@@ -193,4 +193,12 @@ footer {
 	color: white;
 	padding-top: 1%;
 	padding-bottom: 1%;
+}
+
+@media only screen and (max-width: 600px) {
+  #travisAstro{
+    width: 300px;
+    align-items: center;
+    margin-top: 100%;
+  }
 }
