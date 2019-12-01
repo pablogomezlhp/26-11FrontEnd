@@ -1,0 +1,196 @@
+/* Menu customs */
+.navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show>.nav-link {
+	color: white;
+}
+
+.bg-dark {
+	background-color: black!important;
+	color: white!important;
+}
+
+.top {
+	height: 100vh;
+	background-size: cover;
+	background-color: black;
+	color: white;
+}
+
+#travisFace {
+	width: 20%;
+	display: block;
+	margin-left: 40%;
+	margin-top: 5%;
+}
+
+#travisAstro {
+	display: inline-block;
+	width: 70%;
+	margin-top: 25%;
+}
+/* ASTROWORLD animation */
+@-webkit-keyframes hvr-pulse-shrink {
+	to {
+		-webkit-transform: scale(0.9);
+		transform: scale(0.9);
+	}
+}
+
+@keyframes hvr-pulse-shrink {
+	to {
+		-webkit-transform: scale(0.9);
+		transform: scale(0.9);
+	}
+}
+
+.hvr-pulse-shrink {
+	display: inline-block;
+	vertical-align: middle;
+	-webkit-transform: perspective(1px) translateZ(0);
+	transform: perspective(1px) translateZ(0);
+	box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+
+.hvr-pulse-shrink:hover,
+.hvr-pulse-shrink:focus,
+.hvr-pulse-shrink:active {
+	-webkit-animation-name: hvr-pulse-shrink;
+	animation-name: hvr-pulse-shrink;
+	-webkit-animation-duration: 0.3s;
+	animation-duration: 0.3s;
+	-webkit-animation-timing-function: linear;
+	animation-timing-function: linear;
+	-webkit-animation-iteration-count: infinite;
+	animation-iteration-count: infinite;
+	-webkit-animation-direction: alternate;
+	animation-direction: alternate;
+}
+
+.bot {
+	display: table;
+	height: 100vh;
+	background-image: url('../image/media.png');
+	background-size: cover;
+}
+
+h1 {
+	font-size: 125px;
+	font-family: 'Shadows Into Light', cursive;
+	float: bottom;
+	margin: 50px;
+}
+
+.title {
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.img-text {
+	text-align: center;
+	margin-top: 20px;
+}
+
+li {
+	font-family: Georgia, serif;
+	font-size: 18px;
+}
+
+.subtitle {
+	font-family: Helvetica, sans-serif;
+	letter-spacing: -2px;
+	font-size: 30px;
+}
+
+.subtitlee {
+	font-family: Helvetica, sans-serif;
+	letter-spacing: -2px;
+	font-size: 20px;
+}
+
+.sidebyside {
+	float: left;
+	width: 50%;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+.sideb {
+	width: 50%;
+	float: left;
+}
+
+#jordan {
+	margin-top: 10%;
+	margin-bottom: 10%;
+}
+
+#esp {
+	margin-top: 10%;
+}
+
+#wiki {
+	margin-top: 10%;
+}
+
+.links {
+	margin-top: 30px;
+	margin-left: 10px;
+}
+
+.vertical {
+	margin: 15px;
+	display: block;
+	float: left;
+	clear: left;
+	width: 5%;
+}
+
+.bio {
+	float: none;
+	margin: 0 auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+}
+
+
+/* Video customs */
+
+#myVideo {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	min-width: 100%;
+	min-height: 100%;
+}
+
+
+
+.content {
+	position: fixed;
+	bottom: 0;
+	background: rgba(0, 0, 0, 0.5);
+	color: #f1f1f1;
+	width: 100%;
+	padding: 20px;
+}
+
+
+footer {
+	width: 100%;
+	display: inline-block;
+	background-color: black;
+	color: white;
+	padding-top: 1%;
+	padding-bottom: 1%;
+}
